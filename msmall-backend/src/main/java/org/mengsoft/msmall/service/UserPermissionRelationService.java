@@ -1,0 +1,13 @@
+package org.mengsoft.msmall.service;
+
+import org.mengsoft.msmall.entity.UserPermissionRelation;
+import com.baomidou.mybatisplus.extension.service.IService;
+
+/**
+* @author menglingjun
+* @description 针对表【user_permission_relation(后台用户和权限关系表(除角色中定义的权限以外的加减权限))】的数据库操作Service
+* @createDate 2024-01-12 16:02:18
+*/
+public interface UserPermissionRelationService extends IService<UserPermissionRelation> {
+
+}
